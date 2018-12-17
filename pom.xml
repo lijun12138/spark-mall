@@ -12,6 +12,7 @@
         <module>sparkmall-common</module>
         <module>sparkmall-mock</module>
         <module>sparkmall-offline</module>
+        <module>sparkmall-realtime</module>
     </modules>
     <properties>
         <spark.version>2.1.1</spark.version>
@@ -67,18 +68,18 @@
                 <version>${spark.version}</version>
                 <!--<scope>provided</scope>-->
             </dependency>
-            <dependency>
-                <groupId>org.apache.spark</groupId>
-                <artifactId>spark-mllib_2.11</artifactId>
-                <version>${spark.version}</version>
-                <!--<scope>provided</scope>-->
-            </dependency>
-            <dependency>
-                <groupId>org.apache.spark</groupId>
-                <artifactId>spark-graphx_2.11</artifactId>
-                <version>${spark.version}</version>
-                <!--<scope>provided</scope>-->
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>org.apache.spark</groupId>-->
+                <!--<artifactId>spark-mllib_2.11</artifactId>-->
+                <!--<version>${spark.version}</version>-->
+                <!--&lt;!&ndash;<scope>provided</scope>&ndash;&gt;-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>org.apache.spark</groupId>-->
+                <!--<artifactId>spark-graphx_2.11</artifactId>-->
+                <!--<version>${spark.version}</version>-->
+                <!--&lt;!&ndash;<scope>provided</scope>&ndash;&gt;-->
+            <!--</dependency>-->
             <dependency>
                 <groupId>org.scala-lang</groupId>
                 <artifactId>scala-library</artifactId>
