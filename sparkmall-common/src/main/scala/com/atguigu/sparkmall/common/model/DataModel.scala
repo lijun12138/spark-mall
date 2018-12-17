@@ -7,6 +7,8 @@ package com.atguigu.sparkmall.common.model
   *
   * @param date               用户点击行为的日期
   * @param user_id            用户的ID
+  * @param user_name          用户的姓名
+  * @param professional       用户的职业
   * @param session_id         Session的ID
   * @param page_id            某个页面的ID
   * @param action_time        点击行为的时间点
@@ -20,12 +22,15 @@ package com.atguigu.sparkmall.common.model
   */
 case class UserVisitAction(date: String,
                            user_id: Long,
+                           user_name: String,
+                           professional: String,
                            session_id: String,
                            page_id: Long,
                            action_time: String,
                            search_keyword: String,
                            click_category_id: Long,
                            click_product_id: Long,
+                           product_name: String,
                            order_category_ids: String,
                            order_product_ids: String,
                            pay_category_ids: String,
